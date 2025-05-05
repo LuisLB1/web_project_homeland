@@ -1,0 +1,42 @@
+.content {
+    width: 990px;
+    box-sizing: border-box;
+ }
+ .content__sec {
+     box-sizing: border-box;
+     width: calc(100% - 160px);
+ 
+ }
+ .content__title {
+     font-family: "Inter-Black", sans-serif;
+ font-weight: 900;
+ font-size: 54px;
+ line-height: 58px;
+ letter-spacing: 0%;
+ 
+ }
+ .content__paragraph-text {
+     font-family: Inter;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 34px;
+ letter-spacing: 0%;
+ 
+ }
+ .content__paragraph-second-text {
+     font-family: Inter;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 34px;
+ letter-spacing: 0%;
+ text-align: right;
+ 
+ 
+ }
+ .content__paragraph-trd-text {
+     font-family: Inter;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 163%;
+ letter-spacing: 0%;
+ }
