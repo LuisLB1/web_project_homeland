@@ -1,4 +1,8 @@
 .content {
+    display: flex;
+    justify-content: center;
+}
+.content-sec {
     width: 990px;
     box-sizing: border-box;
  }
