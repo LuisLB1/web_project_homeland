@@ -1,4 +1,4 @@
-@pimport url(../vendor/normalize.css.txt);
+@import url(../vendor/normalize.css.txt);
 .body {
     margin: 0;
     padding: 0;
