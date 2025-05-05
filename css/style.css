@@ -1,12 +1,9 @@
-<<<<<<< HEAD
+@pimport url(../vendor/normalize.css.txt);
 .body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-=======
-@import url(../vendor/normalize.css.txt);
->>>>>>> 2532ea3ebd6d3064abdac288e35454d21b02137f
 .page {
     width: 100%;
     background-color: #2A2C2F;
