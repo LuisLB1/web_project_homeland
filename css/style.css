@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 .body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+=======
+@import url(../vendor/normalize.css.txt);
+>>>>>>> 2532ea3ebd6d3064abdac288e35454d21b02137f
 .page {
     width: 100%;
     background-color: #2A2C2F;
@@ -135,4 +139,30 @@ line-height: 49px;
     padding-right: 24px;
 }
 
+}
+@media screen and (max-width: 390px) {
+    .header__title {
+font-size: 40px;
+line-height: 44px;
+    }
+    .header__subheading {
+font-size: 16px;
+line-height: 20px;
+    }
+    .content__title {
+        font-family: Inter;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+        letter-spacing: 0%;
+        
+    }
+    .content__paragraph-text {
+        font-family: Inter;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+    }
+    
 }
