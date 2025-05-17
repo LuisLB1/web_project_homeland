@@ -5,3 +5,12 @@
 @import url(../blocks/content.css);
 @import url(../blocks/footer.css);
 @import url(../blocks/mediaqueries.css);
+
+.content__places {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+    max-width: 1184px;
+
+}
