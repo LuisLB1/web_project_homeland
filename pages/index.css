@@ -6,11 +6,12 @@
 @import url(../blocks/footer.css);
 @import url(../blocks/mediaqueries.css);
 
-.content__places {
+.content__photo-grid {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 16px;
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: repeat(2, 213px);
+    column-gap: 16px;
+    row-gap: 16px;
     max-width: 1184px;
-
+padding-top: 118px;
 }

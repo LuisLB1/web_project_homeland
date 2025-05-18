@@ -7,6 +7,7 @@
 .content-sec {
     width: 990px;
     box-sizing: border-box;
+    margin-bottom: 0;
  }
  .content__sec {
      box-sizing: border-box;
