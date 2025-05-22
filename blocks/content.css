@@ -8,18 +8,21 @@
     width: 990px;
     box-sizing: border-box;
     margin-bottom: 0;
+    height: 607px;
  }
  .content__sec {
      box-sizing: border-box;
      width: calc(100% - 160px);
+     height: 607px;
  
  }
- .content__title {
+ .content__title-h2 {
      font-family: "Inter-Black", sans-serif;
  font-weight: 900;
  font-size: 54px;
  line-height: 58px;
  letter-spacing: 0px;
+ margin-bottom: 0;
  
  }
  .content__paragraph-text {
@@ -37,6 +40,7 @@
  line-height: 34px;
  letter-spacing: 0px;
  text-align: right;
+ margin-top: 0;
  
  
  }
@@ -46,4 +50,5 @@
  font-size: 16px;
  line-height: 163%;
  letter-spacing: 0px;
+ margin-bottom: 0;
  }
