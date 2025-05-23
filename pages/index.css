@@ -82,9 +82,7 @@ margin-top: 85px;
 margin-bottom: 0;
 
 }
-.content__text-alt {
-    margin-top: 107px;
-}
+
 .content__text-editor {
 margin-top: 8px;
 margin-bottom: 0;
@@ -154,5 +152,25 @@ gap: 40px;
 }
 .content__place-2-second {
     grid-area: place-2-second;
+
+}
+/*tercer lugar */
+
+.content__place-3 {
+    display: grid;
+    grid-template-columns: 460px 460px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "place-3-first place-3-second"
+    ;
+    gap: 40px;
+
+}
+.content__place-3-first {
+    grid-area: place-3-first;
+
+}
+.content__place-3-second {
+    grid-area: place-3-second;
 
 }
