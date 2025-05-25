@@ -145,6 +145,7 @@ grid-template-rows: auto;
 grid-template-areas: 
 "place-2-first place-2-second";
 gap: 40px;
+margin-bottom: 80px;
 }
 .content__place-2-first {
     grid-area: place-2-first;
@@ -164,6 +165,8 @@ gap: 40px;
     "place-3-first place-3-second"
     ;
     gap: 40px;
+    height: 859px;
+
 
 }
 .content__place-3-first {
@@ -172,5 +175,24 @@ gap: 40px;
 }
 .content__place-3-second {
     grid-area: place-3-second;
+
+}
+.content__text-description-2-alt {
+    font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+line-height: 163%;
+letter-spacing: 0;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+.content__text-description-3 {
+    font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+line-height: 163%;
+letter-spacing: 0;
+margin-top: 0;
+margin-bottom: 0;
 
 }
