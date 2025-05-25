@@ -6,7 +6,7 @@ line-height: 79px;
 .header__content-imgae {
     width: 100%;
 }
-.content__title {
+.content__title-h2 {
 font-size: 45px;
 line-height: 49px;
 }
@@ -17,6 +17,9 @@ line-height: 49px;
     width: 100%;
     padding-left: 24px;
     padding-right: 24px;
+}
+.content-sec {
+    width: 100vw;
 }
 
 }
@@ -29,7 +32,7 @@ line-height: 44px;
 font-size: 16px;
 line-height: 20px;
     }
-    .content__title {
+    .content__title-h2 {
         font-family: Inter;
         font-weight: 900;
         font-size: 32px;

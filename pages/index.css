@@ -93,14 +93,12 @@ margin-bottom: 0;
     padding: 0;
 }
 .content__place-1-first {
-    height: 756px;
     grid-area: place-1-first;
     margin: 0;
     padding: 0;
 
 }
 .content__place-1-second {
-    height: 756px;
     width: 484px;
     grid-area: place-1-second;
     margin: 0;
@@ -195,4 +193,23 @@ letter-spacing: 0;
 margin-top: 0;
 margin-bottom: 0;
 
+}
+/*cuarto lugar */
+
+.content__place-4 {
+    display: grid;
+    grid-template-columns: 460px 460px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "place-4-first place-4-second"
+    ;
+    gap: 40px;
+    height: 756px;
+}
+.content__place-4-first {
+    grid-area: place-4-first;
+
+}
+.content__place-4-second {
+    grid-area: place-4-second;
 }
