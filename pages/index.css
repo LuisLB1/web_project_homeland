@@ -26,7 +26,35 @@ margin-bottom: 0;
     width: 720px;
     height: 1104px;
     padding-top: 64px; 
+    
 }
+}
+@media screen and (max-width: 740px) {
+    .content__photo-grid {
+        grid-template-columns: 100%;
+        grid-template-rows: 216px;
+      row-gap: 12px;
+      margin-top: 38px;
+      height: 1812px;
+    }
+    .content__photo-grid-images {
+        height: 216px;
+    }
+    .content__paragraph-trd-text {
+    margin-bottom: 38px;
+    }
+    .content__sec {
+        height: 913px;
+        margin-bottom: 38px;
+    }
+    .content-sec {
+        height: 913px;
+    }
+}
+@media screen and (min-width: 490px) and (max-width: 740px) {
+    .content-sec {
+        height: 700px;
+    }
 }
 
 /*lugares*/
@@ -290,5 +318,4 @@ margin-top: 22px;
     margin-top: 0;
 
 }
-
 }
