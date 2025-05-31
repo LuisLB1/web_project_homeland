@@ -203,6 +203,8 @@ letter-spacing: 0;
     height: auto;
     padding-bottom: 48px;
     transition: filter 0.3s ease;
+    box-shadow: 10px 10px 25px 0px #00000080;
+
 }
 .content__image:hover {
     filter: brightness(50%);
@@ -258,7 +260,7 @@ letter-spacing: 0;
 margin-top: 25px;
 }
 .content__botton {
-    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
 width: 289px;
 height: 48px;
 border-radius: 4px;
@@ -374,7 +376,7 @@ margin-bottom: 0;
     grid-template-columns: 100%;
     grid-template-rows:  auto;
     width: 320px !important;
-    height: 1000px !important;
+    height: 1000px;
 
 }
 }
