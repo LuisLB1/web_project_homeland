@@ -248,7 +248,7 @@ transition: filter 0.3s ease;
 }
 .content__botton:hover {
 filter:brightness(25%);
-background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 9999.98%);
+background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 /*Segundo lugar */
 
